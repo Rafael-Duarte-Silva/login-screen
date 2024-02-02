@@ -5,7 +5,8 @@ Esse é o meu primeiro projeto com react.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![telaDeLogin](https://github.com/Rafael-Duarte-Silva/login-screen/assets/38193394/fe9c010e-1f50-4d20-aacd-a434cf87471a)
 
 
 ## Referência
