@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800;900&display=swap');
+
+:root{
+  --green: #40DE63;
+  --white: #FFFFFF;
+  --whiteSecondary: #F5F5F5;
+  --gray: #9F9F9F;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--whiteSecondary);
+}
+
+main{
+  width: 944px;
+  height: 561px;
+
+  display: flex;
+
+  border-radius: 16px;
+
+  background-color: var(--white);
+  box-shadow: 10px 10px 27px -9px rgba(0,0,0,0.6);
+}
+
+.container-accessAccount{
+  flex-grow: 3;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px 0px 0px 16px;
+
+  background-color: var(--green);
+}
+
+.text-welcome{
+  font-weight: 900;
+  font-size: 24px;
+  color: var(--white);
+}
+
+.container-accessAccount p{
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.btn-login{
+  width: 176px;
+  height: 60px;
+
+  margin-block: 5vh;
+
+  border-radius: 16px;
+  border: 3px var(--white) solid;
+
+  background-color: var(--green);
+  box-shadow: 0px 4px 4px 1px rgba(0,0,0,0.29);
+
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.container-createAccount{
+  flex-grow: 8;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-createAccount{
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--green);
+}
+
+form{
+  margin-block: 2vh;
+}
+
+.container-input{
+  width: 551px;
+  height: 60px;
+
+  margin-block: 1.5vh;
+
+  display: flex;
+  align-items: center;
+
+  background-color: var(--whiteSecondary);
+}
+
+.container-input img{
+  width: 50px;
+  height: 50px;
+}
+
+.container-input input{
+  width: 77%;
+  height: 30px;
+
+  text-align: center;
+
+  font-weight: 500;
+  font-size: 18px;
+  
+  border: 0;
+
+  background-color: var(--whiteSecondary);
+}
+
+.container-input input::placeholder{
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--gray);
+}
+
+.container-input input:focus{
+  outline: 0;
+}
+
+.btn-register{
+  width: 336px;
+  height: 48px;
+
+  margin-bottom: 2vh;
+
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--white);
+
+  border-radius: 16px;
+  border: 0;
+  
+  background-color: var(--green);
+}
